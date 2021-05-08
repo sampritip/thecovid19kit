@@ -32,11 +32,8 @@
     <div style="margin-top: 210px;">
         <h1 style="color: black;">Welcome to The Covid19 Kit</h1>
     </div>
-    <div>
-        <button class="btn-primary btn"
-             onclick="window.location.href = "{% url 'give' %}">
-        Create a request
-    </button>
+    </div>
+         <a class="btn btn-primary" href="{% url 'add_request' %}">Create a request</a>
     </div>
     <table class="table" style="margin-top: 40px;">
         <thead>
