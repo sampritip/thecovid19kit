@@ -2,3 +2,7 @@
 {% load i18n %}
 {% user_display user as name %}
 {% blocktrans %}Successfully signed in as {{name}}.{% endblocktrans %}
+
+</div>
+        <a class="btn btn-primary" href="{% url 'home' %}">LOGIN</a>
+</div>
